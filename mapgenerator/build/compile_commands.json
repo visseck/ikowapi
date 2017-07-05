@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/akarim/ikowapi/mapgenerator/build/src/mapgen",
+  "command": "/usr/bin/c++     -std=c++0x -g   -o CMakeFiles/mapgen.dir/main.cpp.o -c /home/akarim/ikowapi/mapgenerator/src/mapgen/main.cpp",
+  "file": "/home/akarim/ikowapi/mapgenerator/src/mapgen/main.cpp"
+},
+{
+  "directory": "/home/akarim/ikowapi/mapgenerator/build/src/mapgen",
+  "command": "/usr/bin/c++     -std=c++0x -g   -o CMakeFiles/mapgen.dir/opensm/osmmap.cpp.o -c /home/akarim/ikowapi/mapgenerator/src/mapgen/opensm/osmmap.cpp",
+  "file": "/home/akarim/ikowapi/mapgenerator/src/mapgen/opensm/osmmap.cpp"
+},
+{
+  "directory": "/home/akarim/ikowapi/mapgenerator/build/src/mapgen",
+  "command": "/usr/bin/c++     -std=c++0x -g   -o CMakeFiles/mapgen.dir/tinyxml2/tinyxml2.cpp.o -c /home/akarim/ikowapi/mapgenerator/src/mapgen/tinyxml2/tinyxml2.cpp",
+  "file": "/home/akarim/ikowapi/mapgenerator/src/mapgen/tinyxml2/tinyxml2.cpp"
+}
+]

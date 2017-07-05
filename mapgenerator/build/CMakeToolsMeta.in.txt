@@ -1,0 +1,2 @@
+executable;mapgen;$<TARGET_FILE:mapgen>
+system;Linux;x86_64;GNU

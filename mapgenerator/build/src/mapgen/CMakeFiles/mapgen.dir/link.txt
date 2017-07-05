@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++0x -g   CMakeFiles/mapgen.dir/main.cpp.o CMakeFiles/mapgen.dir/opensm/osmmap.cpp.o CMakeFiles/mapgen.dir/tinyxml2/tinyxml2.cpp.o  -o mapgen -rdynamic 

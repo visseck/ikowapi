@@ -1,0 +1,5 @@
+/home/akarim/ikowapi/mapgenerator/build/CMakeFiles/edit_cache.dir
+/home/akarim/ikowapi/mapgenerator/build/CMakeFiles/rebuild_cache.dir
+/home/akarim/ikowapi/mapgenerator/build/src/mapgen/CMakeFiles/edit_cache.dir
+/home/akarim/ikowapi/mapgenerator/build/src/mapgen/CMakeFiles/rebuild_cache.dir
+/home/akarim/ikowapi/mapgenerator/build/src/mapgen/CMakeFiles/mapgen.dir
