@@ -6,8 +6,8 @@ namespace ikowapi
 {
 class OSMNode
 {
-  public:
-    uint32_t m_NodeID;
-    LonLat m_Position;
+public:
+  uint64_t m_NodeID;
+  LonLat m_Position;
 };
 }

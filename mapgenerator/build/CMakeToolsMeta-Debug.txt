@@ -1,2 +1,0 @@
-executable;mapgen;/home/akarim/ikowapi/mapgenerator/build/src/mapgen/mapgen
-system;Linux;x86_64;GNU
