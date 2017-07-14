@@ -30,7 +30,6 @@ bool OSMMap::loadMap(const char *mapName)
     while (iterNode != nullptr)
     {
         nodeName = iterNode->Name();
-        //nodeName = iterNode->GetText();
         if (nodeName == "node")
         {
             std::unique_ptr<OSMNode> nodePtr = std::make_unique<OSMNode>();
@@ -76,7 +75,6 @@ bool OSMMap::loadMap(const char *mapName)
             }
         }
         iterNode = iterNode->NextSiblingElement();
-        //else if ()
     }
 
     m_Roads.reserve(tempRoadData.size());
@@ -97,7 +95,7 @@ bool OSMMap::loadMap(const char *mapName)
         m_Roads.push_back(std::move(road));
     }
 
-    int y = 3;
+	return true;
 }
 
 void OSMMap::getExtents(double &minLat, double &minLon, double &maxLat, double &maxLon) const

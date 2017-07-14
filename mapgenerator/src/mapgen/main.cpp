@@ -2,6 +2,7 @@
 #include "tinyxml2/tinyxml2.h"
 #include <string>
 #include <stdio.h>
+#include "core/quadtree.h"
 
 using namespace ikowapi;
 using namespace tinyxml2;
@@ -56,7 +57,9 @@ void buildSVGFile(const char *filePath, const OSMMap &map)
 int main()
 {
     OSMMap map;
-    map.loadMap("/home/akarim/Downloads/map");
-    buildSVGFile("/home/akarim/ikowapi/index.html", map);
+    map.loadMap("d:\\map");
+	RoadQuadTree quadTree(map);
+
+    buildSVGFile("d:\\index.html", map);
     return 0;
 }

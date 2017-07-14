@@ -13,6 +13,7 @@ set( SOURCE
     tinyxml2/tinyxml2.cpp
     addressgen/addressgenerator.h
     addressgen/addressgenerator.cpp
+    addressgen/address.h
 )
 
 SET(CMAKE_CXX_FLAGS "-std=c++14")

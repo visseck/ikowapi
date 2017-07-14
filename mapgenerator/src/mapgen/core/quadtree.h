@@ -13,11 +13,25 @@ class RoadQuadTree
     RoadQuadTree(const OSMMap &map);
 
   private:
+	  enum TreePos
+	  {
+		  TopLeft = 0,
+		  TopRight = 1,
+		  BottomRight = 2,
+		  BottomLeft = 3
+	  };
+
+	  enum Index
+	  {
+		  Min = 0,
+		  Max = 1
+	  };
+
     struct RoadSectionEntry
     {
         OSMRoad *m_Road;
-        uint32_t m_StartIndex;
-        uint32_t m_EndIndex;
+        int32_t m_StartIndex;
+        int32_t m_EndIndex;
     };
 
     struct TreeNode
