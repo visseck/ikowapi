@@ -65,6 +65,10 @@ bool OSMMap::loadMap(const char *mapName)
                     {
                         roadIsActualRoad = true;
                     }
+                    else if (strcmp(wayPropIter->Attribute("k"), "name") == 0)
+                    {
+                        roadPtr->m_RoadName = wayPropIter->Attribute("v");
+                    }
                 }
                 wayPropIter = wayPropIter->NextSiblingElement();
             }
@@ -91,6 +95,7 @@ bool OSMMap::loadMap(const char *mapName)
                 int z = 2;
             }
             road->m_Nodes.push_back(iter->second);
+            iter->second->m_ReferencedRoads.push_back(road.get());
         }
         m_Roads.push_back(std::move(road));
     }

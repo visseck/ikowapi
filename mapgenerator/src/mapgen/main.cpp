@@ -58,8 +58,23 @@ int main()
 {
     OSMMap map;
     map.loadMap("d:\\map");
-	RoadQuadTree quadTree(map);
 
-    buildSVGFile("d:\\index.html", map);
+    for (auto& road : map.m_Roads)
+    {
+        if (road->m_Name.empty())
+        {
+            road->m_Name = "Unnamed Road";
+        }
+    }
+
+    for (auto& road : map.m_Roads)
+    {
+        printf("%s\n", road->m_Name.c_str());
+    }
+    //printf("%d roads, %d empty\n", (int)map.m_Roads.size(), (int)numEmptyRoads);
+
+	//RoadQuadTree quadTree(map);
+
+ //   buildSVGFile("d:\\index.html", map);
     return 0;
 }

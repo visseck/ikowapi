@@ -11,9 +11,6 @@ set( SOURCE
     opensm/osmroad.h
     tinyxml2/tinyxml2.h
     tinyxml2/tinyxml2.cpp
-    addressgen/addressgenerator.h
-    addressgen/addressgenerator.cpp
-    addressgen/address.h
 )
 
 SET(CMAKE_CXX_FLAGS "-std=c++14")
